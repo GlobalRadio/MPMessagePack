@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "MPMessagePack",
     platforms: [
-        .iOS(.v8), .tvOS(.v10), .macOS(.v10_10)
+        .iOS("18.0"), .tvOS("18.0"), .macOS(.v10_10)
     ],
     products: [
         .library(
@@ -14,7 +14,7 @@ let package = Package(
             targets: ["MPMessagePack"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/gabriel/GHODictionary", from: "1.2.0")
+        .package(url: "https://github.com/GlobalRadio/GHODictionary", from: "1.3.0")
     ],
     targets: [
         .target(

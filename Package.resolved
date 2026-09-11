@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "GHODictionary",
-        "repositoryURL": "https://github.com/gabriel/GHODictionary",
+        "repositoryURL": "https://github.com/GlobalRadio/GHODictionary",
         "state": {
           "branch": null,
-          "revision": "a67b9df6dfc6e6af3910d104fd9900e15dc15de9",
-          "version": "1.2.0"
+          "revision": "0429e68bef13ce7f5b5f4aaa124c3f8e3e6a9bd6",
+          "version": "1.3.0"
         }
       }
     ]
